@@ -6,6 +6,7 @@ public class Address
     private string _country;
 
 
+    //set the bool Usa name for the letters
     public bool GetLivesInUSAF()
     {
         if( _country.ToUpper().Equals("USA"))
@@ -14,6 +15,8 @@ public class Address
         }
         return false;
     }
+
+    //set the adress and lication of the city or country if you need to change
     
     public Address(string street, string city, string stateOrProvince, string country)
     {

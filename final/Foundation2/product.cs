@@ -6,6 +6,8 @@ public class Product
     private float _totalPrice;
     private int _quantity;
 
+
+    // References about the total and includes the id and information
     public Product(string name, string productID, float individualPrice, int quantity)
     {
         _name = name;
@@ -19,6 +21,7 @@ public class Product
         _totalPrice = _individualPrice * _quantity;
     }
 
+//getters for the program.cs
    public float GetTotalPrice()
     {
         return _totalPrice;

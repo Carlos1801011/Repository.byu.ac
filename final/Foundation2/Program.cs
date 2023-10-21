@@ -2,6 +2,8 @@ using System;
 
 class Program
 {
+
+    // The program includes the products of and a store and also includes the customer's addresses with their information.
     static void Main(string[] args)
     {
         Console.Clear();
