@@ -2,11 +2,13 @@ using System;
 
 class Program
 {
+    //The program takes a YouTube video and gives it the YouTube name and title and includes comments from random people.
     static void Main(string[] args)
     {
         Video[] _videosLocal = new Video[4];
-
-        _videosLocal[0] = new Video("Mr.Beast", "The most skilled workers in the world!", 150);
+        //name, tittle and time
+        _videsLocal[0] = new Video("Mr.Beast", "The most skilled workers in the world!", 150);
+        //Comments
         _videosLocal[0].AddCommentNew("@GenedarTv", "I have a strong urge to give him tons of money");
         _videosLocal[0].AddCommentNew("@Morimori", "Chris and Jimmy are the best comedy duo And the editor makes it funnier with the edits lol.");
         _videosLocal[0].AddCommentNew("@lilith", "I really appreciate the things you do for others and our planet");
@@ -25,7 +27,7 @@ class Program
         _videosLocal[3].AddCommentNew("@Retribuited", "I'll be honest, Pankoza is probably my favorite Virus Coder so far in the series, I am quite invested into this");
         _videosLocal[3].AddCommentNew("@mooon1155", "you have the biggest bravery of any computer professional, your bravery to show us the viruses that are harmful and those that aren't. i am very proud to say that you are helping us gamers!");
         _videosLocal[3].AddCommentNew("@Whatif", "imagine if a virus is powerful enough to enable wifi and try to spread to other devices on your network at the same time");
-
+        //Range for the display
         for(int i = 0; i < _videosLocal.Length ; i++)
         {
             Console.WriteLine();

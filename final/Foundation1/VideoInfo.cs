@@ -6,7 +6,7 @@ public class Video
     private List<Comment> _comments;
 
 
-
+    // Settings for the text header
     public Video(string author, string title, int lenght)
     {
         _author = author;
@@ -15,14 +15,14 @@ public class Video
         _comments = new List<Comment>();
     }
 
-
+    //setting for the comments
     public void AddCommentNew(string author, string comment)
     {
         Comment newComment = new Comment(author, comment);
         _comments.Add(newComment);
     }
   
-  
+    //setting for the header with the text incluided
     public void DisplayVideoInfo()
     {
         Console.WriteLine("\n*** VIDEO INFO ***");
@@ -41,8 +41,6 @@ public class Video
         }
     }
    
-    
-
         public int GetCommentsCountAbout_video()
     {
         return _comments.Count();
