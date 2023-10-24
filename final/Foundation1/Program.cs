@@ -7,7 +7,7 @@ class Program
     {
         Video[] _videosLocal = new Video[4];
         //name, tittle and time
-        _videsLocal[0] = new Video("Mr.Beast", "The most skilled workers in the world!", 150);
+        _videosLocal[0] = new Video("Mr.Beast", "The most skilled workers in the world!", 150);
         //Comments
         _videosLocal[0].AddCommentNew("@GenedarTv", "I have a strong urge to give him tons of money");
         _videosLocal[0].AddCommentNew("@Morimori", "Chris and Jimmy are the best comedy duo And the editor makes it funnier with the edits lol.");
